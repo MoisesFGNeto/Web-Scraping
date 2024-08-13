@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 # Constants
 BASE_URL = "https://books.toscrape.com/catalogue/page-{}.html"
 TOTAL_PAGES = 50
-WAIT_TIME = 1
 
 def fetch_page(url):
     """
